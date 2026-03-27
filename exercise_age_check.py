@@ -1,3 +1,6 @@
+from selectors import SelectSelector
+
+
 def age_check():
     """
     Ejercicio 3 - Verificar Mayoría de Edad
@@ -18,4 +21,17 @@ def age_check():
         Para las entradas "-5" y "18", la salida esperada es:
         Entrada invalida
     """
-    pass
+
+
+    edad = int(input("Ingresar edad:"))
+    limite_edad = int(input("Limite de edad:"))
+
+    if edad >= limite_edad and edad > 0 and limite_edad > 0:
+        print("Eres mayor de edad")
+
+    elif edad < limite_edad and edad > 0 and limite_edad > 0:
+        print("Eres menor de edad")
+
+    else:
+        print("Entrada invalida")
+
