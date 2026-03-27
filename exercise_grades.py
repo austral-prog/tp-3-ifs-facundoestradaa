@@ -19,8 +19,7 @@ def grades():
         Insuficiente
     """
 
-
-    nota= int(input())
+    nota = int(input())
 
     if nota==9 or nota==10:
         print("Excelente")
