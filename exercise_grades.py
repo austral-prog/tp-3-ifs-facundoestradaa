@@ -20,14 +20,12 @@ def grades():
     """
 
 
-    nota = int(input())
-    limite= 0
-    limite2 = 10
+    nota= int(input())
 
-    if nota==9 or nota==10::
+    if nota==9 or nota==10:
         print("Excelente")
 
-    elif nota==7 or nota==8::
+    elif nota==7 or nota==8:
         print("Bueno")
 
     elif nota==5 or nota==6:
