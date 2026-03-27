@@ -23,8 +23,8 @@ def age_check():
     """
 
 
-    edad = int(input("Ingresar edad:"))
-    limite_edad = int(input("Limite de edad:"))
+    edad = int(input())
+    limite_edad = int(input())
 
     if edad >= limite_edad and edad > 0 and limite_edad > 0:
         print("Eres mayor de edad")
